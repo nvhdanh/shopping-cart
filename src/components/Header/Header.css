@@ -1,0 +1,31 @@
+.Header {
+    padding: 10px;
+}
+
+.Header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header .Logo{
+	height: 40px
+}
+
+.Header img{
+	height: 100%;
+	width: auto;
+}
+
+.Header ul{
+	display: flex;
+	align-items: center;
+}
+
+.Header li{
+	margin: 0 10px;
+}
+
+.Header a{
+	color: #888;
+	font-weight: bold
+}

@@ -1,0 +1,30 @@
+.CartItem{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc
+}
+
+.CartItem-image img{
+	width: 50px
+}
+
+.CartItem-btn-group button{
+	height: 20px;
+	width: 30px;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.3)
+}
+
+.CartItem-btn-group button:focus{
+	outline: 0
+}
+
+.CartItem-btn-group span{
+	margin: 0 10px
+}
